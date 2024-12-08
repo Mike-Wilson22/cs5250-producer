@@ -1,1 +1,2 @@
-# cs5250-producer
+# cs5250-project
+CS5250 Project
