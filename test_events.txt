@@ -1,0 +1,52 @@
+create_request:
+{
+  "type": "create",
+  "requestId": "somelongvalue",
+  "widgetId": "this_sticks_with_widget",
+  "owner": "Kenzie",
+  "label": "something",
+  "description": "yay descriptions",
+  "otherAttributes": [
+    {
+      "name": "color",
+      "value": "red"
+    },
+    {
+      "name": "height",
+      "value": "20"
+    }
+  ]
+}
+
+update_request:
+{
+  "type": "update",
+  "requestId": "somelongvalue2",
+  "widgetId": "this_sticks_with_widget",
+  "owner": "Kenzie",
+  "label": "nothing",
+  "description": "no descriptions",
+  "otherAttributes": [
+    {
+      "name": "color",
+      "value": ""
+    },
+    {
+      "name": "height",
+      "value": "30"
+    },
+    {
+      "name": "width",
+      "value": "40"
+    }
+  ]
+}
+
+delete_request:
+{
+  "type": "delete",
+  "requestId": "somelongvalue3",
+  "widgetId": "this_sticks_with_widget",
+  "owner": "Kenzie",
+  "label": "nothing"
+}
